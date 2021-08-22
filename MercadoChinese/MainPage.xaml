@@ -30,7 +30,7 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <StackLayout Orientation="Vertical" Spacing="10" HorizontalOptions="CenterAndExpand">
-                    <Image Source="qr-code.png" HeightRequest="25" HorizontalOptions="Center"/>
+                    <Image Source="qrcode.png" HeightRequest="25" HorizontalOptions="Center"/>
                     <StackLayout Spacing="7" HorizontalOptions="CenterAndExpand">
                         <Label Text="Cobra con qr"
                                TextColor="#7D7D7D"
@@ -39,7 +39,7 @@
                     </StackLayout>
                 </StackLayout>
                 <StackLayout Grid.Column="1" Orientation="Vertical" Spacing="10" HorizontalOptions="CenterAndExpand">
-                    <Image Source="qr-code.png" HeightRequest="25" HorizontalOptions="Center"/>
+                    <Image Source="qrcode.png" HeightRequest="25" HorizontalOptions="Center"/>
                     <StackLayout Spacing="7" HorizontalOptions="CenterAndExpand">
                          <Label Text="Pagar con qr"
                                TextColor="#7D7D7D"
@@ -57,7 +57,7 @@
                     </StackLayout>
                 </StackLayout>
                 <StackLayout Grid.Column="3" Orientation="Vertical" Spacing="10" HorizontalOptions="CenterAndExpand">
-                    <Image Source="money-transaction.png" HeightRequest="25" HorizontalOptions="Center"/>
+                    <Image Source="moneytransaction.png" HeightRequest="25" HorizontalOptions="Center"/>
                     <StackLayout Spacing="7" HorizontalOptions="CenterAndExpand">
                        <Label Text="Enviar Dinero"
                                TextColor="#7D7D7D"
@@ -71,7 +71,7 @@
             <ImageButton x:Name="ListBtn" Source="listColor.png" WidthRequest="15" HeightRequest="15" />
             <ImageButton x:Name="GridBtn" Source="grid.png" WidthRequest="15" HeightRequest="15"/>
         </StackLayout>
-        <ListView x:Name="WeatherForecastList" ItemsSource="{Binding Weathers}" SeparatorVisibility="None"
+        <ListView x:Name="WeatherForecastList" SeparatorVisibility="None"
                   Grid.Row="3" Margin="20,0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
             <ListView.ItemTemplate>
                 <DataTemplate >

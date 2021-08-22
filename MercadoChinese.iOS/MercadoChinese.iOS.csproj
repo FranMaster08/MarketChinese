@@ -155,10 +155,10 @@
     <BundleResource Include="Resources\Default.png" />
     <BundleResource Include="Resources\bg.png" />
     <BundleResource Include="Resources\fondo.jpg" />
-    <BundleResource Include="Resources\qr-code.png" />
+    <BundleResource Include="Resources\qrcode.png" />
     <BundleResource Include="Resources\laptop.png" />
     <BundleResource Include="Resources\donation.png" />
-    <BundleResource Include="Resources\money-transaction.png" />
+    <BundleResource Include="Resources\moneytransaction.png" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
